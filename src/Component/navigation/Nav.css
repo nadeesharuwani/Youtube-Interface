@@ -1,0 +1,117 @@
+.navigationBox{
+  display: flex;
+  position: fixed;
+  width:100%;
+  height: 50px;
+  font-family: sans-serif;
+  position: sticky;
+  top:0;
+  left:0;
+  cursor: pointer;
+  
+}
+.leftNav{
+  margin:8px;
+  display: flex;
+  flex:3;
+  padding: 3px;
+}
+.centerNav{
+  display: flex;
+  flex:7;
+}
+.rightNav{
+  display: flex;
+  flex:2;
+}
+.YouTubleIcon{
+  display: flex;
+  margin-left: 15px;
+}
+.YouTubeText{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:700;
+  font-size:20px;
+ 
+
+  
+}
+sup{
+  font-size: 10px;
+  font-weight: 300;
+}
+.SearchInput
+{
+  display: flex;
+  width:350%;
+  height: 35px;
+  border-radius: 20px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+ input[type=text]:focus {
+    border: 1px solid #0c2ad4;
+  
+  }
+.SearchInput input::placeholder {
+    position: relative;
+    left: 100px; 
+}
+
+.vertical{
+  border-left: 1px solid rgb(190, 204, 190);
+  height: 35px;
+  position: relative;
+  left:520px;
+  bottom:37px;
+
+}
+.searchIcon{
+  position: relative;
+  left:550px;
+  bottom:65px;
+  cursor: pointer;
+}
+.micIconCricul{
+  width:40px;
+  height: 40px;
+  background-color: rgb(209, 204, 204);
+  border-radius: 50%;
+  position: relative;
+  left:450px;
+  top:12px;
+  display: block;
+  align-items: center;
+}
+.micIcon{
+  position: relative;
+  top:6px;
+  left:5px;
+  cursor: pointer;
+}
+.profile{
+  width:30px;
+  height: 30px;
+  display: flex;
+  border-radius: 50%;
+  margin-left: 20px;
+  
+}
+.rightIcon{
+  display:flex;
+  padding: 15px;
+  cursor: pointer;
+ 
+}
+.notificationIcon,.videoIcon{
+  margin-left: 20px;
+}
+.notificationNumber{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius:40%;
+  position: relative;
+  right:10px;
+}

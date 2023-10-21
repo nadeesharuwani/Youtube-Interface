@@ -1,0 +1,17 @@
+.rightTop
+{
+  display:flex;
+  padding: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.channel{
+  width:100px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(206, 209, 212);
+  border-radius: 10px;
+  padding-top:7px;
+}
+.all{
+  background-color: black;
+}

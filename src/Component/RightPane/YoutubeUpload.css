@@ -1,0 +1,38 @@
+.imgUpload{
+  border-radius: 15px;
+  
+}
+#focused-image:hover {
+  cursor: pointer; 
+}
+img:hover{
+  transform:scale(1.1);
+}
+.uploadContainer{
+  margin: 25px;
+  font-family: sans-serif;
+
+}
+.profilePic{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.bottomPartFirst{
+  display: flex;
+  align-items: center;
+  
+}
+.description{
+  margin-left: 5px;
+}
+.channelName{
+  margin-left: 35px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.uploadTime{
+  margin-left: 35px;
+  font-size: 12px;
+  font-weight: 400;
+}

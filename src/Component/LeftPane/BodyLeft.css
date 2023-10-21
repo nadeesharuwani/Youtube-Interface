@@ -1,0 +1,89 @@
+.bodyLeftBox{
+  flex:2;
+  margin-top:25px;
+  font-family: sans-serif;
+  height:calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top:50px;
+}
+::-webkit-scrollbar{
+  width:7px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover{
+ background-color: rgb(217, 221, 224);
+}
+::-webkit-scrollbar-thumb:hover{
+ background-color: rgb(128, 130, 133);
+}
+.firstIconList{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-left:10px;
+}
+.firstIconList:hover{
+  background-color: rgb(207, 204, 209);
+  border-radius: 10px;
+}
+.secondIconList:hover{
+  background-color: rgb(207, 204, 209);
+  border-radius: 10px;
+}
+hr{
+  color:rgb(249, 248, 250); 
+  size: 2px;
+  margin-left:5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.secondIconList{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-left:10px;
+}
+.subscribeContiner{
+  margin:20px;
+}
+.ListText{
+  margin-left: 20px;
+}
+.Subscribe{
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+.subscriptionList{
+  display: flex;
+  padding: 10px 10px 10px 0px;
+  cursor: pointer;
+  
+}
+.subscriptionList:hover{
+  background-color: rgb(207, 204, 209);
+  border-radius: 10px;
+}
+.subImage{
+  width:25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.subText,.iconText{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.thirdIcon{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-left:10px;
+}
+.thirdIcon:hover{
+  background-color: rgb(207, 204, 209);
+  border-radius: 10px;
+}
